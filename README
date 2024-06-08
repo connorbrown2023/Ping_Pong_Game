@@ -1,0 +1,36 @@
+Pong Game
+
+The classic retro Pong game recreated using Python.
+
+This project is from the bootcamp course 100 Days of Python Code, created by the App Brewery.
+
+Description:
+This is a recreation of the classic Pong game using Python's Turtle graphics module. The game features two paddles and a ball. Players control the paddles to bounce the ball back and forth. The game keeps score and gets progressively faster as the ball hits the paddles.
+
+Installation:
+1. Clone the repository:
+    git clone https://github.com/yourusername/ping-pong-game.git
+2. Navigate to the project directory:
+    cd ping-pong-game
+3. Install the required dependencies:
+    pip install -r requirements.txt
+
+Usage:
+To start the game, run the main script:
+    python main.py
+
+Game Controls:
+- Right Paddle: Move up with the "Up" arrow key, move down with the "Down" arrow key.
+- Left Paddle: Move up with the "W" key, move down with the "S" key.
+
+Key Features:
+- Paddle Class: Controls the movement of the paddles.
+- Ball Class: Handles the ball's movement and bouncing logic, with the ball speeding up each time it hits a paddle.
+- Scoreboard Class: Keeps track of and displays the score.
+
+Known Issues & Future Improvements:
+- Error Handling: There's an error where the ball sometimes bounces inside the paddle when it hits the side.
+- Code Comments: Adding more detailed comments, especially docstrings for methods, to improve code readability and usability.
+- Sound Effects: Adding sound effects for paddle hits and scoring.
+- Difficulty Levels: Implementing different difficulty levels.
+- Power-ups: Introducing power-ups to make the game more dynamic.
